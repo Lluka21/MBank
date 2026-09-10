@@ -7,7 +7,7 @@ dist/
 web-build/
 expo-env.d.ts
 
-# N
+# 
 .kotlin/
 *.orig.*
 *.jks
