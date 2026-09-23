@@ -16,6 +16,7 @@ type SendModalProps = {
 
 const bankCards = ["Visa Platinum", "MasterCard Gold"];
 
+
 export default function SendModal({
   visible,
   onClose,
