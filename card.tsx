@@ -42,7 +42,9 @@ export const BankCard = ({
 export default function Card() {
   const context = useContext(CalculateBalanceContext);
 
-
+  if(!context) {
+    throw new Error("Context must be used within a provider ")
+  }
 
   const { currentBalance } = context;
 
